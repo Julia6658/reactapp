@@ -14,7 +14,7 @@ function Counter () {
   }
 }
 	
-export default Counter;
+export default Counter; 
 </pre>
 1. <b>В компонент передаются атрибуты description и title . Могу ли я их сложить как на примере, чтобы получить одну строку и вывести в компоненте?</b></br>
 Нет, пропсы надо менять через this, this.state.title = title + description;
