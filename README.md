@@ -2,7 +2,7 @@
 
 <b>Вопросы к д/з 25 недели: </b><br>
 Практическое задание 💎 - переписать классовый компонент Counter, используя хуки:
-
+<pre>
 function Counter () {
    const [count, setCount] = useState(0)
    handleClick = () => {
@@ -13,20 +13,9 @@ function Counter () {
     )
   }
 }
-
-import React from "react";
-import styles from './button.css'
-
-export default class Example extends React.Component {
-    render() {
-				let {description,title} = this.props
-				title += description; //title = title + description
-         return (
-            <span>{title}</span>
-        );
-    }
-}
-
+	
+export default Counter;
+</pre>
 
 
 
