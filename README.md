@@ -1,4 +1,35 @@
 # reactapp
+
+<b>Вопросы к д/з 25 недели: </b><br>
+Практическое задание 💎 - переписать классовый компонент Counter, используя хуки:
+
+function Counter () {
+   const [count, setCount] = useState(0)
+   handleClick = () => {
+    setCount(count + 1)
+  };
+    return (
+      <button onClick={handleClick}>{count}</button>;
+    )
+  }
+}
+
+import React from "react";
+import styles from './button.css'
+
+export default class Example extends React.Component {
+    render() {
+				let {description,title} = this.props
+				title += description; //title = title + description
+         return (
+            <span>{title}</span>
+        );
+    }
+}
+
+
+
+
 <b>Вопросы к д/з 21 недели: </b><br>
 1. Нет, достаточно команды npm install -g create-react-app <br>
 2. Минус SPA - SEO-продвижение для него не сделать, не работает у пользователей с отключенной поддержкой JS, не работает без доступа к сети <br>
