@@ -33,7 +33,33 @@ function CardList() {
 }
 </pre>
 
-5.
+{
+    id: 111345,
+    title:"Зимние ботинки",
+    price:99,
+    description:"Такие только у нас",
+    imgLink:"https://shop/winter_boots.jpg"
+}
+
+<pre>
+
+function CardList() {
+        return (
+            <React.Fragment>
+                {shoes.filter((item, index)=> {
+                        if (item.price < 100) {
+                        <Card
+                            key={index}
+                            id={item.id}
+                            title={item.title}
+                            price={item.price}
+                            description={item.description}
+                            imgLink={item.imgLink}
+			            />
+                 } })}
+            </React.Fragment>
+        );
+}
 
 <b>Вопросы к д/з 25 недели: </b><br>
 Практическое задание 💎 - переписать классовый компонент Counter, используя хуки:
@@ -48,7 +74,7 @@ function Counter () {
     )
   }
 }
-	
+</pre>	
 export default Counter; 
 </pre>
 1. <b>В компонент передаются атрибуты description и title . Могу ли я их сложить как на примере, чтобы получить одну строку и вывести в компоненте?</b></br>
