@@ -32,7 +32,7 @@ function CardList() {
         );
 }
 </pre>
-
+<pre>
 {
     id: 111345,
     title:"Зимние ботинки",
@@ -41,7 +41,7 @@ function CardList() {
     imgLink:"https://shop/winter_boots.jpg"
 }
 
-<pre>
+
 
 function CardList() {
         return (
