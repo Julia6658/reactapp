@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/reactapp/static/css/main.7948149e.chunk.css",
-    "main.js": "/reactapp/static/js/main.b45935e4.chunk.js",
-    "main.js.map": "/reactapp/static/js/main.b45935e4.chunk.js.map",
-    "runtime-main.js": "/reactapp/static/js/runtime-main.b120af12.js",
-    "runtime-main.js.map": "/reactapp/static/js/runtime-main.b120af12.js.map",
-    "static/js/2.568bc4a7.chunk.js": "/reactapp/static/js/2.568bc4a7.chunk.js",
-    "static/js/2.568bc4a7.chunk.js.map": "/reactapp/static/js/2.568bc4a7.chunk.js.map",
-    "static/js/3.a058fff3.chunk.js": "/reactapp/static/js/3.a058fff3.chunk.js",
-    "static/js/3.a058fff3.chunk.js.map": "/reactapp/static/js/3.a058fff3.chunk.js.map",
+    "main.css": "/reactapp/static/css/main.f1c54922.chunk.css",
+    "main.js": "/reactapp/static/js/main.585f41f0.chunk.js",
+    "main.js.map": "/reactapp/static/js/main.585f41f0.chunk.js.map",
+    "runtime-main.js": "/reactapp/static/js/runtime-main.5fe8ed4b.js",
+    "runtime-main.js.map": "/reactapp/static/js/runtime-main.5fe8ed4b.js.map",
+    "static/js/2.7482679e.chunk.js": "/reactapp/static/js/2.7482679e.chunk.js",
+    "static/js/2.7482679e.chunk.js.map": "/reactapp/static/js/2.7482679e.chunk.js.map",
+    "static/js/3.37742638.chunk.js": "/reactapp/static/js/3.37742638.chunk.js",
+    "static/js/3.37742638.chunk.js.map": "/reactapp/static/js/3.37742638.chunk.js.map",
     "index.html": "/reactapp/index.html",
-    "static/css/main.7948149e.chunk.css.map": "/reactapp/static/css/main.7948149e.chunk.css.map",
-    "static/js/2.568bc4a7.chunk.js.LICENSE.txt": "/reactapp/static/js/2.568bc4a7.chunk.js.LICENSE.txt",
-    "static/media/logo.a46658fc.svg": "/reactapp/static/media/logo.a46658fc.svg"
+    "static/css/main.f1c54922.chunk.css.map": "/reactapp/static/css/main.f1c54922.chunk.css.map",
+    "static/js/2.7482679e.chunk.js.LICENSE.txt": "/reactapp/static/js/2.7482679e.chunk.js.LICENSE.txt",
+    "static/media/logo.a46658fc.svg": "/reactapp/static/media/logo.a46658fc.svg",
+    "static/media/uk.713b4014.jpg": "/reactapp/static/media/uk.713b4014.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b120af12.js",
-    "static/js/2.568bc4a7.chunk.js",
-    "static/css/main.7948149e.chunk.css",
-    "static/js/main.b45935e4.chunk.js"
+    "static/js/runtime-main.5fe8ed4b.js",
+    "static/js/2.7482679e.chunk.js",
+    "static/css/main.f1c54922.chunk.css",
+    "static/js/main.585f41f0.chunk.js"
   ]
 }
