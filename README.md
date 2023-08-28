@@ -13,8 +13,6 @@
     imgLink:"https://shop/beach_footwear.jpg"
 }
 
-
-
 function CardList() {
         return (
             <React.Fragment>
