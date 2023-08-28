@@ -32,34 +32,7 @@ function CardList() {
         );
 }
 </pre>
-<pre>
-{
-    id: 111345,
-    title:"Зимние ботинки",
-    price:99,
-    description:"Такие только у нас",
-    imgLink:"https://shop/winter_boots.jpg"
-}
-
-
-
-function CardList() {
-        return (
-            <React.Fragment>
-                {shoes.filter((item, index)=> {
-                        if (item.price < 100) {
-                        <Card
-                            key={index}
-                            id={item.id}
-                            title={item.title}
-                            price={item.price}
-                            description={item.description}
-                            imgLink={item.imgLink}
-			            />
-                 } })}
-            </React.Fragment>
-        );
-}
+7. Exact нужен для прверки точного соответствия текущего адреса и адресов, указанных в Route. <br>
 
 <b>Вопросы к д/з 25 недели: </b><br>
 Практическое задание 💎 - переписать классовый компонент Counter, используя хуки:
