@@ -1,0 +1,37 @@
+.tarif_item {width: 23%}
+
+.tarif_item > div {
+    padding: 20px 11px;
+    color: #fff;
+}
+
+.tarif_item .tarif__footer {
+    color: #000;
+    background-color: rgb(245, 240, 240);
+}
+.price {font-size: 42px;}
+.tarif__price > span:first-child {
+    transform: translateY(-17px);
+    display: inline-block;
+}
+
+.selected {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0 , 0, .45);
+    z-index: 99;
+}
+.tarif__speed {color: #000;}
+.tarif_item div.tarif__speed {color: #000; background-color: #fff;}
+
+.red .tarif__header {background-color: red;} 
+.red div:nth-child(2) {background-color: #eb9292;}
+
+.black .tarif__header {background-color: #000;}
+.black div:nth-child(2) {background-color: #000;}
+
+.blue .tarif__header {background-color: #0c79e1c7;}
+.blue div:nth-child(2) {background-color: #59a2e7c7;}
+
+.green .tarif__header {background-color: #026b02c2;}
+.green div:nth-child(2) {background-color: #00800099;}
+

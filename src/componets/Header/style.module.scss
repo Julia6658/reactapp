@@ -1,0 +1,19 @@
+.header {
+    padding: 10px 30px; 
+    background: rgb(212 231 253);
+    margin-bottom: 40px;     
+    position: sticky;
+    top: 0;
+    z-index:99;
+}
+
+.header nav ul {display: flex; align-items: center; gap: 30px;}
+.header nav ul li {list-style: none;}
+nav li a {
+    color: #406a9c;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header nav img {max-height: 70px;}

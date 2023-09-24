@@ -1,0 +1,20 @@
+
+.hero_item {
+    font-family: "Open sans"; 
+    width: 29%; 
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;}
+.hero_img {max-width: 70%;margin: 20px;}
+.hero_info {height: 26px; cursor: pointer; overflow:hidden; text-overflow: ellipsis; transition: height .3s ease;}
+.hero_info:hover {height: fit-content;max-height: fit-content;}
+.hero_rating img {filter: grayscale(1);}
+.hero_rating span {cursor: pointer;}
+.hero_rating.disabled {pointer-events: none;}
+
+
+.disabled1.hero-rating span:nth-child(1) > img {filter: grayscale(0);}
+
+.item {display: flex; column-gap: 20px; align-items: center;margin: 0 0 20px 0;}

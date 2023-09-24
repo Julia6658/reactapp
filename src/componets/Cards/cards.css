@@ -1,0 +1,56 @@
+.cards {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-bottom: 30px
+    
+}
+
+.card_wrapper {
+    display: flex;
+    flex-direction:row;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.card-enter {
+    opacity: 0;
+  }
+
+.card-enter-active {
+   
+    animation: fade-in 500ms forwards;
+  }
+
+.card-exit {display: none;}
+
+.card-exit-active {
+    
+    animation: fade-out 0ms forwards;
+    display: none;
+    position: absolute;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity:0;
+        transform: scale(0)} 
+
+    100% {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes fade-out {
+    0%{
+        opacity:1;
+        transform: scale(1)} 
+
+    100% {
+        transform: scale(0);
+        opacity: 0
+    }
+}

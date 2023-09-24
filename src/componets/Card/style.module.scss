@@ -1,0 +1,48 @@
+.card {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #29ABE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 300px;
+}
+
+.english_word{
+    align-self: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.transcript {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ccc;}
+
+.card .btn {
+    background-color: #548bcc;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+        background-color:#5468cc;
+    }
+    &:focus {
+        background-color:#162985;
+    }
+    
+}
+
+.translation {
+    min-height: 49px;    
+    line-height: 49px;
+}
+
+
+
+
